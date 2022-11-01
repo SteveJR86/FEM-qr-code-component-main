@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Outline;
+    src: url(../fonts/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outline;
+    margin: 0;
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 0;
+}
+.card-content {
+    width: 285px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+img {
+    border-radius: 15px;
+    width: 285px;   
+}
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin: 10px 20px;
+    text-align: center;
+}
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    margin: 0px 15px;
+    text-align: center;
+}
